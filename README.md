@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Tinn Trim Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ a dynamic online store application built using Axios
+framework in React.js.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+A quick reference to the sections in your README.
 
-### `yarn start`
+- [Installation](#installation): Instructions on how to get the project up and running.
+- [Features](#features): Highlights of the key features your application offers.
+- [Contributing](#contributing): Guidelines for contributors who want to help improve the project.
+- [License](#license): Information about the licensing of your project.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installaion
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To use and interact with this project, follow these steps:
 
-### `yarn test`
+1. **Clone the Repository**:
+   - Clone this repository to your local machine using the following command:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+     ```bash
+     git clone https://github.com/your-username/react-assignment-1.git
+     ```
 
-### `yarn build`
+2. **Install Dependencies**:
+   - Navigate to the project directory and install the required dependencies using npm or yarn:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+     ```bash
+     cd react-assignment-1
+     npm install
+     # or
+     yarn install
+     ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Start the Development Server**:
+   - Once the dependencies are installed and environment variables are set, start the development server:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+     ```bash
+     npm start
+     # or
+     yarn start
+     ```
 
-### `yarn eject`
+4. **View the Application**:
+   - Open your web browser and navigate to `http://localhost:3000` to view the deployed application.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. **Explore the Online store**:
+   - On the homepage, navigate to the each category to see dynamically fetched products from the specified API.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Single Page Deployment**: Deployed a single-page application on Vercel.
+2. **Dynamic Reviews Section**: Implemented a dynamic reviews section using Axios framework in React.js/Next.js, consuming data from the provided REST API.
+3. **React.js**: Utilized React.js for building the user interface components.
+4. **REST API Integration**: Integrated a REST API (`https://admin.tomedes.com/api/v1/get-reviews?page=1`) to fetch dynamic data for the reviews section.
+5. **Axios**: Used Axios NPM package for making HTTP requests to the API endpoints.
+6. **Design Matching**: Attempted to match the design of the specified Figma design (https://www.figma.com/file/TAfVDIZE050z4IXyhxpvq8/Hospital-Landing-Page?node-id=0%3A2) as closely as possible.
+7. **GitHub Repository**: Codebase available in a public GitHub repository.
+8. **README.md File**: Included a proper README.md file in the repository for clear documentation and instructions.
+9. **Vercel Deployment**: Successfully deployed the codebase on Vercel for hosting the application.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If you'd like to contribute to the project, follow these steps:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. **Fork the repository**: Create your own copy of the project on GitHub.
+2. **Create a new branch**: Work on your changes in a separate branch.
+3. **Make your changes**: Implement the new feature, fix a bug, or make improvements.
+4. **Commit your changes**: Save your work with descriptive commit messages.
+5. **Push to the branch**: Upload your changes to your forked repository.
+6. **Create a new Pull Request**: Propose your changes to be merged into the main project.
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.

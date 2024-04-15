@@ -1,0 +1,31 @@
+/* Cpmme */
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@100..900&display=swap');
+/* Encode Sans */
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@100..900&family=Encode+Sans:wght@100..900&display=swap');
+
+.home-container {
+    padding: 0 2%;
+}
+
+.div-container p {
+    margin: 0;
+    font: 500 16px/1.2 "Encode Sans";
+}
+
+.div-container img {
+    height: 18px;
+    width: 18px;
+}
+
+.home-container .loading-view,
+.empty-msg-view {
+    height: 50vh;
+}
+
+.products-list {
+    margin: 35px 0;
+}
+
+.empty-msg {
+    font: 500 18px/1.2 "Encode Sans";
+}

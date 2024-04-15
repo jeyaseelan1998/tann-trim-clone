@@ -1,0 +1,13 @@
+.breadcrump-container {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrump-container p {
+    margin: 0;
+    font: 500 16px/1.2 "Encode Sans";
+}
+
+.bi-dot {
+    margin: 0 5px;
+}
