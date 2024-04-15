@@ -7,7 +7,6 @@ import FilterGroup from '../FilterGroup'
 import Breadcrumb from '../Breadcrumb'
 import ProductCard from '../ProductCard'
 
-import exit from '../../asserts/icons/exit.svg'
 import apiStatuses from '../../utils/apiStatuses'
 
 import './index.css'
@@ -39,6 +38,7 @@ const Home = () => {
 
     useEffect(() => {
         fetchProducts()
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [category])
 
     const emptyView = () => (
@@ -95,7 +95,11 @@ const Home = () => {
 
                     <div className='div-container d-flex flex-wrap align-items-center justify-content-between'>
                         <p>{response.data.length} Products</p>
-                        <img alt='icon' src={exit} className='ms-2' />
+                        <img
+                            alt='icon'
+                            src="https://res.cloudinary.com/dj5c1rxzz/image/upload/v1713193948/tann-trim/exit.svg"
+                            className='ms-2'
+                        />
                     </div>
                 </div>
 
