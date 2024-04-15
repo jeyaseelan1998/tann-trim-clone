@@ -9,7 +9,6 @@ import ProductCard from '../ProductCard'
 
 import exit from '../../asserts/icons/exit.svg'
 import apiStatuses from '../../utils/apiStatuses'
-import products from '../../data/products'
 
 import './index.css'
 
@@ -23,11 +22,11 @@ const Home = () => {
 
     const fetchProducts = async () => {
         setResponse(prev => ({ apiStatus: apiStatuses.initial, ...prev }))
-        const url = "https://github.com/jeyaseelan1998/products-api/blob/main/products.json"
+        const url = "http://localhost:3001/products"
         const apiResponse = await axios.get(url)
-        console.log(apiResponse);
+
         if (apiResponse.status === 200) {
-            const data = products.filter(each => each.category.toLocaleLowerCase() === category.toLocaleLowerCase())
+            const data = apiResponse.data.filter(each => each.category.toLocaleLowerCase() === category.toLocaleLowerCase())
             setResponse(() => ({
                 apiStatus: apiStatuses.success,
                 data: data
