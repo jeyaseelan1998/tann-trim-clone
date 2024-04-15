@@ -22,7 +22,7 @@ const Home = () => {
 
     const fetchProducts = async () => {
         setResponse(prev => ({ apiStatus: apiStatuses.initial, ...prev }))
-        const url = "http://localhost:3001/products"
+        const url = "https://products-api-86e0.onrender.com/products"
         const apiResponse = await axios.get(url)
 
         if (apiResponse.status === 200) {
