@@ -10,19 +10,26 @@
 }
 
 .bookmark-icon {
-    position: absolute;
-    top: 15px;
-    right: 15px;
     height: 35px;
     width: 25px;
+}
+
+.product-card-bookmark-btn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 
 @media screen and (max-width: 256px) {
     .bookmark-icon {
         width: 15px;
         height: 20px;
-        top: 2%;
-        right: 10%;
+    }
+
+    .product-card-bookmark-btn {
+        top: 0%;
+        right: 8%;
+        padding: 0;
     }
 }
 

@@ -45,11 +45,36 @@ const Navbar = () => {
             </div>
 
             <nav className='nav-items m-auto d-flex flex-wrap mt-4 mb-sm-4'>
-                <Link to="/bags" className={`nav-item p-1 me-2 ms-3 mb-3 mb-sm-0 ${path === "bags" ? "active-path" : ""} `}>Bags</Link>
-                <Link to="/travel" className={`nav-item p-1 me-2 ms-3 mb-3 mb-sm-0 ${path === "travel" ? "active-path" : ""} `}>Travel</Link>
-                <Link to="/accesories" className={`nav-item p-1 me-2 ms-3 mb-3 mb-sm-0 ${path === "accesories" ? "active-path" : ""} `}>Accesories</Link>
-                <Link to="/gifting" className={`nav-item p-1 me-2 ms-3 mb-3 mb-sm-0 ${path === "gifting" ? "active-path" : ""} `}>Gifiting</Link>
-                <Link to="/jwelery" className={`nav-item p-1 me-2 ms-3 mb-3 mb-sm-0 ${path === "jwelery" ? "active-path" : ""} `}>Jewelery</Link>
+                <Link
+                    to="/bags"
+                    className={`nav-item p-1 me-2 ms-3 mb-3 mb-sm-0 ${path === "bags" ? "active-path" : ""} `}
+                >
+                    Bags
+                </Link>
+                <Link
+                    to="/travel"
+                    className={`nav-item p-1 me-2 ms-3 mb-3 mb-sm-0 ${path === "travel" ? "active-path" : ""} `}
+                >
+                    Travel
+                </Link>
+                <Link
+                    to="/accesories"
+                    className={`nav-item p-1 me-2 ms-3 mb-3 mb-sm-0 ${path === "accesories" ? "active-path" : ""} `}
+                >
+                    Accesories
+                </Link>
+                <Link
+                    to="/gifting"
+                    className={`nav-item p-1 me-2 ms-3 mb-3 mb-sm-0 ${path === "gifting" ? "active-path" : ""} `}
+                >
+                    Gifiting
+                </Link>
+                <Link
+                    to="/jwelery"
+                    className={`nav-item p-1 me-2 ms-3 mb-3 mb-sm-0 ${path === "jwelery" ? "active-path" : ""} `}
+                >
+                    Jewelery
+                </Link>
             </nav>
         </header>
     )

@@ -25,11 +25,13 @@ const ProductCard = ({ productDetails }) => {
                     <p className='discount mb-0'>({Math.round(((mrp - curr_price) / mrp) * 100)}&#37; Off)</p>
 
                     <button className='btn ms-auto ps-1 pe-1' >
-                        <img className='add-cart-icon' src={cartIcon} alt='add cart icon' />
+                        <img loading='lazy' className='add-cart-icon' src={cartIcon} alt='add cart icon' />
                     </button>
                 </div>
 
-                <img alt='bookmark icon' src={bookmark} className='bookmark-icon' />
+                <button className='btn product-card-bookmark-btn'>
+                    <img alt='bookmark icon' src={bookmark} className='bookmark-icon' />
+                </button>
             </article>
         </li>
     )
