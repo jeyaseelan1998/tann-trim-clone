@@ -1,4 +1,4 @@
-# Tinn Trim Clone
+# Tinn Trim Clone - Sale Assist Company Assignment
 
  a dynamic online store application built using Axios
 framework in React.js.
